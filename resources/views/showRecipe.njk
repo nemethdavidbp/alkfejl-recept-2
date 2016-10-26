@@ -2,15 +2,16 @@
 
 {% block content %}
 
-<h2> {{recipe.name }} </h2>
-<p>Desszertek</p>
+<h2>{{ recipe.name }}</h2>
+<p>{{ recipe.category.name }}</p>
 <h3>Hozzávalók</h3>
 <pre>
 {{ recipe.ingredients }}
 </pre>
-<h3> {{recipe.instructions}} </h3>
+<h3>Leírás</h3>
 <pre>
-valamit csinálj
+{{ recipe.instructions }}
 </pre>
+
 
 {% endblock %}

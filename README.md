@@ -1,4 +1,4 @@
-# Receptes alkalmazás
+# Receptes alkalmazás - pr
 
 ## Telepítés
 

@@ -2,14 +2,13 @@
 
 {% block content %}
 
-<h2>Aranygaluska</h2>
+<h2> {{recipe.name }} </h2>
 <p>Desszertek</p>
 <h3>Hozzávalók</h3>
 <pre>
-1kg liszt
-3 tojás
+{{ recipe.ingredients }}
 </pre>
-<h3>Leírás</h3>
+<h3> {{recipe.instructions}} </h3>
 <pre>
 valamit csinálj
 </pre>
